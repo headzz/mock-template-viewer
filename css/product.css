@@ -1,0 +1,305 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #f3ecdd;
+}
+
+p {
+  margin: 0;
+}
+
+.background-main-page {
+  background: url("../images/background.png");
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.main-page-text {
+  color: #e9ceab;
+  margin-top: 50px;
+  font-family: SinaNova, "SinaNova", serif;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.product-selection-line {
+  background-color: #f3ebdd;
+  border-radius: 44px;
+  color: #784a2e;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: SinaNova, "SinaNova", serif;
+  font-size: 1.8rem;
+  justify-content: space-between;
+  padding: 32px 40px 0 40px;
+}
+
+.product-selection-content {
+  align-items: center;
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-selection-image-container {
+  position: relative;
+  background-color: #e9ceab;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  padding: 24px 8px 16px 8px;
+  width: 98%;
+}
+
+.product-selection-description-text {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.product-order-badge {
+  background-color: #d4a673;
+  border-radius: 100%;
+  color: #f3ebdd;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 30px;
+  height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  left: 12px;
+  width: 30px;
+}
+
+.article-description {
+  background-color: #e9ceab;
+  border-top-left-radius: 72px;
+  border-top-right-radius: 72px;
+  color: #784a2e;
+  font-family: SinaNova, "SinaNova", serif;
+  font-size: 1.4rem;
+  padding: 32px 40px 110px 40px;
+}
+
+.button-styled {
+  background-color: transparent;
+  border: 0;
+  border: 2px solid #784a2e;
+  border-radius: 36px;
+  color: #784a2e;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 32px;
+  outline: 0;
+  padding: 18px 8px 18px 8px;
+  text-align: center;
+  text-decoration: none;
+  width: 90%;
+  font-family: SinaNova, "SinaNova", serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.hr-styled {
+  background-color: #e9cfad;
+  border: 0;
+  height: 4px;
+  margin: 40px 0;
+}
+
+.article-description-title {
+  font-family: SinaNova, "SinaNova", serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.article-description-title-sub {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-top: 12px;
+}
+
+.article-description-title-sub span {
+  font-weight: normal;
+}
+
+.article-description-quantity {
+  font-style: italic;
+}
+
+.article-usage {
+  background-color: #ecdabe;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-top: -72px;
+  color: #784a2e;
+  font-family: SinaNova, "SinaNova", serif;
+  font-size: 1.4rem;
+  padding: 32px 40px 60px 40px;
+}
+
+.article-usage-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.article-usage a img {
+  margin-top: 64px;
+  margin-left: -12px;
+}
+
+.floating-buttons {
+  display: flex;
+  flex-direction: column;
+  left: 40px;
+  height: 160px;
+  justify-content: space-between;
+  position: absolute;
+  top: 32px;
+}
+
+.floating-buttons img {
+  width: 80px;
+  height: 80px;
+}
+
+.stamps-collection {
+  display: flex;
+  margin-top: 32px;
+  margin-left: -16px;
+}
+
+.stamps-collection-first {
+  display: flex;
+  margin-top: 32px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.stamps-collection-first img {
+  flex-basis: 33.3333%;
+}
+
+.stamps-collection-first img:nth-child(4) {
+  margin-left: 40px;
+  padding-left: 24px;
+}
+
+.stamps-collection-first img:nth-child(5) {
+  margin-right: 40px;
+}
+
+.stamps-collection img:not(:first-child) {
+  margin-left: 10px;
+}
+
+.product-image-container {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.product-section {
+  position: relative;
+}
+
+.floating-color-product-description-12 {
+  background-color: #e9ceab;
+  height: 220px;
+  right: 0;
+  position: absolute;
+  width: 50vw;
+  z-index: 0;
+}
+
+.floating-color-product-description-11 {
+  background-color: #e9ceab;
+  border-bottom-left-radius: 70px;
+  height: 208px;
+  right: 0;
+  position: absolute;
+  width: 72vw;
+  z-index: 0;
+}
+
+.fragrance-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.fragrance-container img {
+  margin-top: 36px;
+}
+
+.difusor-fragrance-container {
+  background-repeat: no-repeat;
+  color: #ecdabe;
+  height: 100%;
+}
+
+.difusor-text-container {
+  color: #ecdabe;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  margin: 64px 0;
+  padding-left: 410px;
+}
+
+.difusor-text-container p:not(:nth-child(1)) {
+  font-style: italic;
+  font-size: 3.7rem;
+  font-weight: normal;
+  width: fit-content;
+}
+
+.difusor-button-right {
+  position: absolute;
+  right: 0px;
+  top: 190px;
+}
+
+.difusor-button-left {
+  position: absolute;
+  left: 0px;
+  top: 190px;
+  transform: rotate(180deg);
+}
+
+div.sticky {
+  position: fixed;
+  background-color: transparent;
+  bottom: 0;
+  color: #784a2e;
+  right: 0;
+  width: 160px;
+  cursor: pointer;
+  padding: 10px;
+  font-family: SinaNova, "SinaNova", serif;
+  font-size: 1.2rem;
+  text-align: right;
+  z-index: 2;
+}
+
+.top-10 {
+  font-size: 2rem;
+  color: #f3ecdd;
+  font-family: SinaNova, "SinaNova", serif;
+  padding: 0 40px;
+  margin-bottom: 36px;
+  margin-top: 20px;
+  font-weight: 600;
+}

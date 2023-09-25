@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "SinaNova";
+  src: url("../fonts/Sina\ Nova/SinaNova-bold.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SinaNova";
+  src: url("../fonts/Sina\ Nova/SinaNova-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SinaNova";
+  src: url("../fonts/Sina\ Nova/SinaNova-Italic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SinaNova";
+  src: url("../fonts/Sina\ Nova/SinaNova-BoldItalic.otf");
+  font-weight: 600;
+  font-style: italic;
+}
